@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedex</title>
+    <link rel="icon" type="image/png" href="./img/icons/pokeball-fav.png">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./media.css">
+    <script src="./templates/templates.js"></script>
+    <script src="./script.js"></script>
+  </head>
+  <div id="spinner" class="d-none">
+    <h2>...loading</h2>
+    <div class="item">
+      <div class="ball"></div>
+      <div class="half-ball"></div>
+      <div class="big-button"></div>
+      <div class="small-button"></div>
+      <div class="horizon"></div>
+    </div>
+  </div>
+  <div onclick="closeOverlay()" id="overlay" class="d-none">
+    <div onclick="stop(event)" id="overlay-card"></div>
+  </div>
+  <body onload="init()">
+    <header id="header">
+      <img class="headline-img" src="./img/pokedex.png" alt="pokedex" />
+    </header>
+    <div id="header-pokeball" class="header-pokeball">
+      <form id="inputForm" onsubmit="filterNames(); return false" class="input-cont d-none">
+          <input minlength="3" required id="input" type="text" autocomplete="on" placeholder="Search for name or type..." />
+          <input type="submit" value="" class="red-circle">
+      </form>
+      <div class="big-circle">
+          <div onclick="openInputfield()" class="small-circle"></div>
+      </div>
+      <div class="red-semicircle"></div>
+      <div class="black-space"></div>
+    </div>
+    <div class="pokeball-hint">
+      <img src="" alt="">
+    </div>
+    <div id="content"></div>
+    <footer>
+      <div id="footer-pokeball">
+        <div class="big-circle-footer">
+            <div onclick="loadMore()" class="small-circle-footer">LOAD MORE</div>
+        </div>
+        <div class="red-semicircle-footer"></div>
+        <div class="black-space-footer"></div>  
+      </div>
+    </footer>
+  </body>
+</html>

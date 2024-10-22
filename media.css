@@ -1,0 +1,105 @@
+@media(max-width: 1100px) {
+    #overlay-card {
+        width: 50%
+    }
+    .red-semicircle-footer {
+        top: -35px;
+    }
+    .big-circle-footer {
+        top: -80px
+    }
+}
+@media(max-width: 850px) {
+    #overlay-card {
+        width: 70%;
+    }
+}
+@media(max-width: 760px) {
+    header {
+        background-position: center 10%;
+        height: 220px;
+    }
+    .headline-img {
+        height: 105px;
+        margin-top: 0;
+    }
+    .red-semicircle-footer {
+        top: -20px;
+    }
+    .big-circle-footer {
+        top: -65px
+    }  
+}
+@media(max-width: 600px) {
+    #overlay-card {
+        height: 70%;
+        width: 90%;
+    }
+    .pokeCard-content-big {
+        width: 80%;
+    }
+    .content-all-attributes {
+        gap: 30px;
+    }
+}
+@media(max-width: 470px) {
+    header {
+        height: 220px;
+    }
+    .headline-img {
+        height: 95px;
+        margin-top: 0;
+    }
+    .input-cont {
+        width: 200px;
+    }
+    .red-circle {
+        display: none;
+    }
+    .pokeCard-head-big {
+        flex-direction: column;
+        border-radius: 10px;
+    }
+    .frame {
+        padding: 0;
+    }
+    .num-name {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+    .pokeTypes-big {
+        flex-direction: row;
+        margin-top: 20px;
+    }
+    .pokeball-bg {
+        top: 40px;
+    }
+    #overlay-card {
+        height: 700px;
+        width: 90%;
+    }
+    .pokeCard-content-big {
+        height: 450px;
+        width: 80%
+    }
+}
+@media(max-width: 430px){
+    .pokeball-bg {
+        top: 50px;
+    }
+    .pokeCard-content-big {
+        width: 75%;
+    }
+    .content-all-attributes {
+        gap: 20px;
+    }
+    .red-semicircle-footer {
+        top: -2px;
+    }
+    .big-circle-footer {
+        top: -55px
+    }
+
+}

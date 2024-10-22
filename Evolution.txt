@@ -1,0 +1,23 @@
+Evolution
+
+höchste Stufe
+https://pokeapi.co/api/v2/evolution-chain/2
+.chain.evolves_to[0]evolves_to[0]species.name
+
+mittle Stufe
+.chain.evolves_to[0]species.name
+
+niedrigste Stufe
+.chain.species.name
+
+              <!-- <span>${pokeURL[i].abilites[0].ability.name}</span>
+              <span>${pokeURL[i].abilites[1].ability.name}</span> -->
+
+              <!-- <span>${pokeURL[i].held_items[0].item.name}</span>
+              <span>${pokeURL[i].held_items[1].item.name}</span> -->
+
+              <!-- <span>${pokeURL[i].moves[0].move.name}</span>
+              <span>${pokeURL[i].held_items[1].name}</span> -->
+
+              <!-- <span>${pokeURL[i].moves[0].move.name}</span>
+              <span>${pokeURL[i].held_items[1].name}</span> -->
