@@ -41,8 +41,8 @@ function generateSingleCardHTML(i) {
           </div>
         </div>
         <div class="arrow-cont">
-          <img onclick="previousPoke(${i})" src="/img/icons/arrow-left.svg" class="arrows" alt="arrow left">
-          <img onclick="nextPoke(${i})" src="/img/icons/arrow-right.svg" class="arrows" alt="arrow right">
+          <img onclick="previousPoke(${i})" src="./img/icons/arrow-left.svg" class="arrows" alt="arrow left">
+          <img onclick="nextPoke(${i})" src="./img/icons/arrow-right.svg" class="arrows" alt="arrow right">
         </div>
           <img class="pokeImg-big" src="${pokeURL[i].sprites.other.showdown.front_default}" alt="${pokeURL[i].name}">
           <img class="pokeball-bg" src="/img/icons/pokeball.svg">
